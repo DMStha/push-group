@@ -23,3 +23,18 @@ console.log("this is bottom", x);
 // var => global scope
 // let => block scope
 // const => block scope
+
+// let cart = [
+//   {
+//     price: 200,
+//     qty: 3,
+//   },
+//   {
+//     price: 300,
+//     qty: 5,
+//   },
+//   {
+//     price: 500,
+//     qty: 1,
+//   },
+// ];
