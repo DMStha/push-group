@@ -126,6 +126,7 @@
 //   }
 // };
 // registerUser("Shyam");
+<<<<<<< HEAD
 function example(A, K) {
   let N = A.length;
   if ((N = 0)) return A;
@@ -134,3 +135,13 @@ function example(A, K) {
   return [...A.slice(-K), ...A.slice(0, N - K)];
 }
 console.log(example([1, 2, 3, 4, 5], 1));
+=======
+// function example(A, K) {
+//   let N = A.length;
+//   if ((N = 0)) return A;
+
+//   K = K % N;
+//   return [...A.slice(-K), ...A.slice(0, N - K)];
+// }
+// console.log(example([1, 2, 3, 4, 5], 1));
+>>>>>>> f1358e018ed02eae71cf48a2b9ebd7b0b42e6ab6

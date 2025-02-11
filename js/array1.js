@@ -1,10 +1,20 @@
+<<<<<<< HEAD
 // let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+=======
+let students = [
+  { name: "ram", age: 20, marks: 50 },
+  { name: "shyam", age: 10, marks: 60 },
+  { name: "hari", age: 25, marks: 40 },
+];
+// console.log(students);
+console.log(students[1]);
+>>>>>>> f1358e018ed02eae71cf48a2b9ebd7b0b42e6ab6
 
-// let x = "10";
-// let y = "10";
-// console.log(x==y); //true
-// console.log(x===y);// false
+students.map((stu) => {
+  console.log(stu.name, stu.age, stu.marks);
+});
 
+<<<<<<< HEAD
 // let oddNumber = [];
 // let evenNumber = [];
 // for (let index = 0; index < number.length; index++) {
@@ -80,3 +90,19 @@ numbers1.map((num) => {
   console.log(`2 x ${num} = ${2 * num}`);
 });
 
+=======
+// let cart = [
+//   {
+//     price: 200,
+//     qty: 3,
+//   },
+//   {
+//     price: 300,
+//     qty: 2,
+//   },
+//   {
+//     price: 400,
+//     qty: 4,
+//   },
+// ];
+>>>>>>> f1358e018ed02eae71cf48a2b9ebd7b0b42e6ab6
