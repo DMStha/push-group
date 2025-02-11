@@ -24,7 +24,7 @@ students.map((students) => {
   }
 });
 
-
+/*
 =======
   { name: "ramesh", paidStatus: true, scholarship: false },
   { name: "ganga", paidStatus: true, scholarship: false },
@@ -47,4 +47,6 @@ students.map((student) => {
     console.log(`not paid, ${student.name} cannot give the exam`); //template literal
   }
 });
->>>>>>> f1358e018ed02eae71cf48a2b9ebd7b0b42e6ab6
+>>>>>>>
+
+*/
